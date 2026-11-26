@@ -10,8 +10,5 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: "printing path"
-        run: pwd
-
-      - name: "printing name"
-        run: echo Huda
+      - name: "printing files"
+        run: ls
